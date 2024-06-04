@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="outerDiv">
+        <h1>lets cteate a list</h1>
+        <p>by clicking on this "add new" button add bellow n no. of items </p> <br>
+    
+        <div class="container">
+            <input type="text" placeholder="Add Task" id="getList">
+            <button id="addNewList" class="yellow-bg"><b>Add Task</b></button>
+    
+        </div><br>
+        <div class="list"></div>    
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+<!-- <script>
+    $(document).ready(function(){
+
+        $('#addNewList').click(function(){
+
+            var getlist = $('#getList').val();
+
+            if (getlist != "") {
+
+                var makeList = $('<li>').text(getlist);
+                var deleteBtn = $('<button>').addClass('deleteButton').text("Delete");
+                makeList.append(deleteBtn);
+                $('.list').append(makeList);
+
+                $('#getlist').val("");
+
+
+            }
+
+
+        });
+
+
+        $(document).on('click', '.deleteButton', function(){
+
+            $(this).parent().remove();
+        });
+
+    });
+</script> -->
+<script src="js/custom.js"></script>
+
+
+</html>

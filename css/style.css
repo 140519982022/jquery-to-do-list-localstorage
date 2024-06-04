@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1,p{
+    color: yellow;
+    text-transform: capitalize;
+}
+
+input[type="text"]{
+    text-align: center;
+    width: 60%;
+    height: 32px;
+    background-color: rgb(243, 243, 154);
+
+}
+
+.outerDiv{
+    width: 500px;
+    height: auto;
+    margin: 15% auto;
+    
+}
+
+/* .addNewListCls{
+    padding: 9px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+} */
+
+.alignVtn{
+    text-align: right;
+}
+
+.yellow-bg{
+    background-color: yellow;
+    padding: 9px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.deleteBtn{
+    background-color: red !important;
+    padding: 9px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
